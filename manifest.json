@@ -1,0 +1,14 @@
+
+{
+    "manifest version": 2,
+    "name": "InTheClear",
+    "version": "0.1.0",
+    "content_scripts": [
+        {
+            "js": ["script.js"],
+            "css": ["styles.css"],
+            "html": ["index.html"]
+        }
+    ]
+
+}
