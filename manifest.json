@@ -10,9 +10,7 @@
       "scripts":["script.js"]
     },
     "permissions": [
-      "browsingData",
-      "tabs",
-      "storage"
+      "browsingData"
     ]
   }
   

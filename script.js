@@ -1,12 +1,5 @@
-const millisecondsPerTenMin = 1000 * 60 * 5;
-let tenMinAgo = (new Date()).getTime() - millisecondsPerTenMin; //Time for all time - 1 minute
-
-//when you double click allow access to index.html page
-//have user copy paste url(s) and sumbit
-// on submit, save url(s) in chrome storage
-//when user clicks on icon then retrieve url(s) from chrome storage
-//and insert url(s) into newPage function
-//Extension: opens multiple tabs
+const msPerTenMin = 1000 * 60 * 5;
+let tenMinAgo = (new Date()).getTime() - msPerTenMin; //Time for all time - 1 minute
 
 function browsingdata(){
   chrome.browsingData.remove({
